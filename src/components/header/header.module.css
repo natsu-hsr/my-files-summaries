@@ -1,0 +1,10 @@
+@import '/src/shared/styles/colors.css';
+
+.header {
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border-bottom: 2px solid var(--light-gray);
+}

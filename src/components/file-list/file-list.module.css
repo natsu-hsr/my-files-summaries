@@ -1,0 +1,27 @@
+@import '/src/shared/styles/colors.css';
+
+.list {
+  border: 1px solid var(--dark-gray);
+  border-radius: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.iconAlign {
+  margin-bottom: -5px;
+}
+
+.deleteIcon {
+  margin-left: 5px;
+  width: 20px;
+  cursor: pointer;
+  color: var(--dark-gray);
+
+  &:hover {
+    color: var(--red);
+  }
+}
