@@ -1,0 +1,25 @@
+@import '/src/shared/styles/colors.css';
+
+.dropzone {
+	background-color: var(--light-gray) !important;
+	border: 1px #555 dashed !important;
+	border-radius: 10px;
+	padding: 40px 0 !important;
+
+	&:hover {
+		background-color: var(--dark-gray) !important;
+	}
+}
+
+.icon {
+	width: 50px;
+	height: 50px;
+}
+
+/* .handIcon {
+	width: 26px;
+	height: 26px;
+	transform: rotate(180deg);
+	margin-left: 8px;
+	margin-bottom: -2px;
+} */

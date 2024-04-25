@@ -1,0 +1,41 @@
+@import '/src/shared/styles/colors.css';
+
+.wrapper {
+	position: relative;
+  margin: 40px 0;
+}
+
+.switch {
+	padding-bottom: 1rem;
+	display: flex;
+	justify-content: flex-end;
+	[class~=mantine-Switch-track] {
+		/* border-color: var(--pastel-pink); */
+		/* background-color: var(--light-gray); */
+		/* background-color: #fff; */
+		border-color: var(--pastel-pink);
+		background-color: var(--light-gray);
+		background-color: var(--pastel-pink);
+		width: 110px !important;
+
+		[class~=mantine-Switch-trackLabel] {
+			width: 100%;
+			color: #fff !important;
+			font-size: 12px;
+		}
+
+		/* [class~=mantine-Switch-thumb] {
+		} */
+	}
+}
+
+.label {
+	display: flex;
+	align-items: center;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+	padding-left: 4px;
+}

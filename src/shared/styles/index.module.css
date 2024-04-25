@@ -1,0 +1,9 @@
+@import '/src/shared/styles/colors.css';
+
+.btnActive {
+	background-color: var(--pastel-pink) !important;
+	
+	&:hover {
+		background-color: var(--pastel-pink-darker) !important;
+	}
+}

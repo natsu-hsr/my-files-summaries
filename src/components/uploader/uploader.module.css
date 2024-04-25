@@ -1,22 +1,4 @@
-@import '/src/shared/styles/colors.css';
-
 .wrapper {
 	width: 100%;
 	position: relative;
-	margin: 4rem 0;
-}
-
-.dropzone {
-	background-color: var(--light-gray) !important;
-	border: 1px #555 dashed !important;
-	border-radius: 10px;
-
-	&:hover {
-		background-color: var(--dark-gray) !important;
-	}
-}
-
-.icon {
-	width: 50px;
-	height: 50px;
 }

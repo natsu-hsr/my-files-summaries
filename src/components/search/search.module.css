@@ -1,0 +1,8 @@
+@import '/src/shared/styles/colors.css';
+
+.input {
+	input {
+		border-width: 1px;
+		border-color: var(--pastel-pink) !important;
+	}
+}

@@ -1,3 +1,5 @@
+@import '/src/shared/styles/colors.css';
+
 .container {
   padding: 1.5rem 0;
 }
@@ -27,4 +29,5 @@
   height: fit-content;
   /* todo - temporary fix to remove gap between path and svg, fix later */
   margin-bottom: -15px;
+  color: var(--pastel-pink);
 }
